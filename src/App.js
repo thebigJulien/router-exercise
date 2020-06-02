@@ -3,7 +3,7 @@ import './App.scss';
 import Navigation from './header';
 import Victoria from './victoria';
 import Home from './home';
-import { Switch, Route, Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import MelC from './melC';
 import MelB from './melB';
 import Geri from './Geri';

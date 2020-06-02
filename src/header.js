@@ -26,15 +26,6 @@ const Navigation = () => {
 
                 </ul>
             </nav>
-            {/* <nav>
-                <ul>
-                    <li></li>
-                    <li>Melanie Chisholm</li>
-                    <li>Melanie Brown</li>
-                    <li>Geri Halliwell</li>
-                    <li>Emma Bunton</li>
-                </ul>
-            </nav> */}
         </header>
     );
 };
