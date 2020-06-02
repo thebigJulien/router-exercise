@@ -1,0 +1,29 @@
+#root{
+  .App {
+    text-align: center;
+    background-color: rgb(240, 85, 111);
+    height: 100%;
+    margin-top: -50px;
+    header {
+      h1 {
+        font-size: 4rem;
+        color: rgb(228, 196, 15);
+      }
+      nav { 
+          ul{
+            display: flex;
+            justify-content: space-evenly;  
+            list-style: none;   
+          }
+      }
+    }
+    .body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+      height: 100vh;
+    }
+  }
+}
+
