@@ -5,7 +5,9 @@ import Victoria from './victoria';
 import Home from './home';
 import { Switch, Route, Router } from 'react-router-dom';
 import MelC from './melC';
-import MelB from './melB'
+import MelB from './melB';
+import Geri from './Geri';
+import Emma from './Emma';
 
 function App() {
   return (
@@ -20,22 +22,13 @@ function App() {
       </Switch>
 
       <Switch>
-        <Route path="/victoria">
-        <Victoria></Victoria>
-        </Route>
+        <Route path="/victoria" component={Victoria} />
+        <Route path="/melC" component={MelC} />
+        <Route path="/melB" component={MelB} />
+        <Route path="/geri" component={Geri} />
+        <Route path="/Emma" component={Emma} />
       </Switch>
 
-      <Switch>
-        <Route path="/melC">
-        <MelC></MelC>
-        </Route>
-      </Switch>
-
-      <Switch>
-        <Route path="/melB">
-        <MelB></MelB>
-        </Route>
-      </Switch>
       </div>
     </div>
   );
